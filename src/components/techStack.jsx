@@ -7,11 +7,7 @@ export default function Stack() {
     };
 
     return (
-        <div style={{
-            display: "flex",
-            marginTop: '40px',
-            marginLeft: '24rem',
-        }}>
+        <div className="flex">
             <img src="/images/nodejs.png" alt="nodejs" style={imageStyle} />
             <img src="/images/astro.png" alt="astro" style={imageStyle} />
             <img src="/images/tailwind.png" alt="tailwind" style={imageStyle} />
