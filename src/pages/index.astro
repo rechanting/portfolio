@@ -12,18 +12,24 @@ import Stack from '../components/techStack.jsx'
 		<link rel="stylesheet" href="/css/styles.css">
 		<title>Hamza Elashry</title>
 	</head>
-	<Nav />
-	<body class="min-h-screen bg-slate-950">
-		<div>
-			<p class="text-slate-50 font-sans text-xl indent-96 mt-36">Hello, I am</p>
-			<h1 class="font-mono text-slate-50 text-7xl indent-96 mt-11">Hamza Elashry.</h1>
-			<p class="text-slate-50 font-sans text-xl indent-96 mt-6">I am a beginner fullstack web developer and I am originally from Egypt but based in the United States of America.</p>
-			<p class="text-slate-50 font-sans text-xl indent-96">Currently, I am primarily focused on frontend work to learn how to make websites and so on.</p>
+
+	<body class="max-h-fit bg-slate-950 flex flex-col justify-center items-center">
+						<Nav />
+
+		<div class='mt-44'>
+			<p class="text-slate-50 font-sans text-xl">Hello, I am</p>
+			<h1 class="font-mono text-slate-50 text-7xl">Hamza Elashry.</h1>
+			<p class="text-slate-50 font-sans text-xl">I am a beginner fullstack web developer and I am originally from Egypt but based in the United States of America.</p>
+			<p class="text-slate-50 font-sans text-xl">Currently, I am primarily focused on frontend work to learn how to make websites and so on.</p>
+		</div>
+				<div>
+				
+			<h2 class="text-slate-50 font-sans text-4xl mt-9">Tech Stack</h2>
+					<Stack />
+
 		</div>
 
-		<div>
-			<h2 class="text-slate-50 font-sans text-4xl indent-96 mt-9">Tech Stack</h2>
-		</div>
+		<div class='min-h-screen bg-slate-950'></div>
+
 	</body>
-	<Stack />
 </html>
