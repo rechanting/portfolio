@@ -1,36 +1,112 @@
 ---
-import Nav from '../components/nav.jsx'
-import Stack from '../components/techStack.jsx'
+import Stack from "../components/techStack.jsx";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<link rel="stylesheet" href="/css/styles.css">
-		<title>Hamza Elashry</title>
-	</head>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Hamza Elashry</title>
+    <script
+      src="https://kit.fontawesome.com/1b97dd7005.js"
+      crossorigin="anonymous"></script>
+    <script src="../../node_modules/preline/dist/preline.js"></script>
+  </head>
 
-	<body class="max-h-fit bg-slate-950 flex flex-col justify-center items-center">
-						<Nav />
+  <body
+    class="max-h-fit bg-slate-950 flex flex-col justify-center items-center"
+  >
+    <header
+      class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-4 dark:bg-neutral-800"
+    >
+      <nav
+        class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
+        aria-label="Global"
+      >
+        <div class="flex items-center justify-between">
+          <a class="flex-none text-2xl" href="#">
+            Hamza Elashry
+          </a>
+          <div class="sm:hidden">
+            <button
+              type="button"
+              class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-white dark:hover:bg-white/10"
+              data-hs-collapse="#navbar-image-1"
+              aria-controls="navbar-image-1"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                class="hs-collapse-open:hidden flex-shrink-0 size-4"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                ><line x1="3" x2="21" y1="6" y2="6"></line><line
+                  x1="3"
+                  x2="21"
+                  y1="12"
+                  y2="12"></line><line x1="3" x2="21" y1="18" y2="18"
+                ></line></svg
+              >
+              <svg
+                class="hs-collapse-open:block hidden flex-shrink-0 size-4"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                ><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg
+              >
+            </button>
+          </div>
+        </div>
+        <div
+          id="navbar-image-1"
+          class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
+        >
+          <div
+            class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5"
+          >
+            <a class="font-medium text-blue-500 hover:text-blue-200 transition-all" href="https://instagram.com/hamzaelashry_stuff" aria-current="page"
+              ><i class="fa-brands fa-instagram text-3xl"></i></a
+            >
+            <a
+              class="font-medium text-blue-500 hover:text-blue-200 transition-all"
+              href="https://github.com/hamzascript"><i class="fa-brands fa-square-github text-3xl"></i></a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
 
-		<div class='mt-44'>
-			<p class="text-slate-50 font-sans text-xl">Hello, I am</p>
-			<h1 class="font-mono text-slate-50 text-7xl">Hamza Elashry.</h1>
-			<p class="text-slate-50 font-sans text-xl">I am a beginner fullstack web developer and I am originally from Egypt but based in the United States of America.</p>
-			<p class="text-slate-50 font-sans text-xl">Currently, I am primarily focused on frontend work to learn how to make websites and so on.</p>
-		</div>
-				<div>
-				
-			<h2 class="text-slate-50 font-sans text-4xl mt-9">Tech Stack</h2>
-					<Stack />
+    <div class="mt-56">
+      <p class="text-slate-50 font-sans text-xl">Hello, I am</p>
+      <h1 class="font-mono text-slate-50 text-7xl font-bold">Hamza Elashry.</h1>
+    </div>
+	<div class="mt-2 flex flex-col">
+		<p class="mt-1 text-xl"><i class="fa-brands fa-google-scholar"></i> Sophomore in Highschool</p>
+		<p class="mt-1 text-xl"><i class="fa-solid fa-feather"></i> Interested in Frontend</p>
+		<p class="mt-1 text-xl"><i class="fa-solid fa-magnifying-glass"></i> Always looking to learn new things</p>
 
-		</div>
+	</div>
+    <div>
+      <h2 class="text-slate-50 font-sans text-4xl mt-10">Tech Stack</h2>
+      <Stack />
+    </div>
 
-			<div class='mt-64 bg-slate-950'></div>
-			<div class='mt-36 bg-slate-950'></div>
-
-	</body>
+    <div class="mt-64 bg-slate-950"></div>
+	<div class="mt-4 bg-slate-950"></div>
+  </body>
 </html>

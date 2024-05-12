@@ -6,7 +6,7 @@ export default function Stack() {
     };
 
     return (
-        <div className="flex">
+        <div className="flex mt-5">
             <img src="/images/astro.png" alt="astro" style={imageStyle} className="object-scale-down"/>
             <img src="/images/tailwind.png" alt="tailwind" style={imageStyle} className="object-scale-down"/>
             <img src="/images/git.png" alt="git" style={imageStyle} className="object-scale-down"/>
