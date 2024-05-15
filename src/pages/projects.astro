@@ -1,0 +1,139 @@
+---
+import Stack from "../components/techStack.jsx";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Hamza Elashry - Projects</title>
+    <script
+      src="https://kit.fontawesome.com/1b97dd7005.js"
+      crossorigin="anonymous"></script>
+    <script src="../../node_modules/preline/dist/preline.js"></script>
+  </head>
+
+  <body
+    class="max-h-fit bg-slate-950 flex flex-col justify-center items-center"
+  >
+    <header
+      class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-slate-300 text-sm py-4"
+    >
+      <nav
+        class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
+        aria-label="Global"
+      >
+        <div class="flex items-center justify-between">
+          <a
+            class="font-medium text-3xl text-blue-950 hover:text-blue-600 transition-all underline"
+            href="/"
+          >
+            Home
+          </a>
+          <div class="sm:hidden">
+            <button
+              type="button"
+              class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-white dark:hover:bg-white/10"
+              data-hs-collapse="#navbar-image-1"
+              aria-controls="navbar-image-1"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                class="hs-collapse-open:hidden flex-shrink-0 size-4"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                ><line x1="3" x2="21" y1="6" y2="6"></line><line
+                  x1="3"
+                  x2="21"
+                  y1="12"
+                  y2="12"></line><line x1="3" x2="21" y1="18" y2="18"
+                ></line></svg
+              >
+              <svg
+                class="hs-collapse-open:block hidden flex-shrink-0 size-4"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                ><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg
+              >
+            </button>
+          </div>
+        </div>
+        <div
+          id="navbar-image-1"
+          class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
+        >
+          <div
+            class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5"
+          >
+            <a
+              class="font-medium text-blue-950 hover:text-blue-600 transition-all"
+              href="https://instagram.com/hamzaelashry_stuff"
+              aria-current="page"
+              ><i class="fa-brands fa-instagram text-3xl"></i></a
+            >
+            <a
+              class="font-medium text-blue-950 hover:text-blue-600 transition-all"
+              href="https://github.com/hamzascript"
+              ><i class="fa-brands fa-square-github text-3xl"></i></a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="mt-56">
+      <h1 class="text-slate-50 font-sans text-7xl">Projects</h1>
+    </div>
+
+    <div class="flex justify-center flex-wrap mt-28 m-2.5">
+      <div class="w-80 bg-slate-900 rounded-md overflow-hidden p-4 m-2">
+        <div>
+          <img src="https://media.discordapp.net/attachments/1235512288254099486/1240100293677551636/image.png?ex=664554e5&is=66440365&hm=fdffe6674fc252761b373d4602a6bed7017232e7ea138fb16266af0960770ed0&=&format=webp&quality=lossless&width=1252&height=614" alt="pteranodon" />
+          <a href="https://github.com/hamzascript/portfolio" class="font-bold text-xl underline hover:text-blue-500 transition-all">Portfolio</a>
+          <p>
+            My portfolio website, which is this website! Used with Astro, Tailwind, and preline-UI its a simple but amazing portfolio with a projects page and a landing page. 
+          </p>
+        </div>
+      </div>
+      <div class="w-80 bg-slate-900 rounded-md overflow-hidden p-4 m-2">
+        <img src="https://github.com/hamzascript/pteranodon/blob/main/public/images/banner.png?raw=true" alt="pteranodon" />
+        <div>
+          <a href="https://github.com/hamzascript/pteranodon" class="font-bold text-xl underline hover:text-blue-500 transition-all">Pteranodon</a>
+          <p>
+            Pteranodon is a modern client panel for the pterodactyl panel, with simplicity and minimality in mind it serves as the best panel for customers out there.
+          </p>
+        </div>
+      </div>
+      <div class="w-80 bg-slate-900 rounded-md overflow-hidden p-4 m-2">
+        <img src="https://github.com/hamzascript/authy/blob/main/authy.png?raw=true" alt="pteranodon" />
+        <div>
+          <a href="https://github.com/hamzascript/arktos" class="font-bold text-xl underline hover:text-blue-500 transition-all">Authy</a>
+          <p>
+            Originally designed for the Doge Unblocker discord server (https://discord.gg/unblocking), Authy is a discord authentication bot that detects if a user is using a proxy, vpn, or tor enabled.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="mt-64 bg-slate-950"></div>
+    <div class="mt-4 bg-slate-950"></div>
+  </body>
+</html>
