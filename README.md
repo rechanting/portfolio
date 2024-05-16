@@ -1,7 +1,7 @@
 # Portfolio website
 
 Hello! Hamza here.
-This is my new portfolio website, it is built using Astro the web framework, tailwind, and daisyUI!
+This is my new portfolio website, it is built using Astro the web framework, tailwind, and preline UI!
 
 Here are some instructions if you wanna copy it
 
