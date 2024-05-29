@@ -1,5 +1,17 @@
-module.exports = {
-    content: ['./src/**/*.{astro,tsx}'],
-    plugins: [require('daisyui')],
-};
-  
+/** @type {import('tailwindcss').Config} */
+export default {
+	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+	theme: {
+		extend: {},
+	},
+	plugins: [
+		require('tailwind-typewriter')({
+			wordsets: {
+				info: {
+					words: ['a programmer.', 'from Egypt.', 'a sophomore in highschool.', 'a triplet.'],
+					delay:  2
+				}
+			}
+		})
+	],
+}
