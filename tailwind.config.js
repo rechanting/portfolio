@@ -9,7 +9,7 @@ export default {
 			wordsets: {
 				info: {
 					words: ['a programmer.', 'from Egypt, living in the USA.', 'a sophomore in highschool.', 'a triplet.'],
-					delay:  2
+					delay:  1
 				}
 			}
 		})
