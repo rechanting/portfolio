@@ -8,10 +8,11 @@ export default {
 		require('tailwind-typewriter')({
 			wordsets: {
 				info: {
-					words: ['a programmer.', 'from Egypt, living in the USA.', 'a sophomore in highschool.', 'a triplet.'],
+					words: ['a programmer.', 'from Egypt, living in the USA.', 'a junior in highschool.'],
 					delay:  1
 				}
 			}
-		})
+		}),
+		require("rippleui")
 	],
 }
